@@ -151,7 +151,6 @@ header {
 
 .t-t {
     color: #070211;
-    font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -191,7 +190,7 @@ header {
     height: 1000px;
     flex-shrink: 0;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .p-o-d {
@@ -247,7 +246,6 @@ header {
 
 .i-f-b {
     background-image: url('../images/Rectangle1.png');
-    /* width: 429px; */
     max-width: 429px;
     height: 433px;
     display: block;
@@ -270,7 +268,6 @@ header {
 .container-cart {
     max-width: 1320px;
     width: 83%;
-    /* height: 600px; */
     margin: 0 auto;
     margin-top: 50px;
 
@@ -328,7 +325,7 @@ header {
 .first-cart {
     display: flex;
     max-width: 1320px;
-       
+
 }
 
 
@@ -363,11 +360,9 @@ header {
 .subscribe-text h3 {
     color: #070211;
     text-align: center;
-    font-family: Merriweather;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     padding-top: 50px;
 }
@@ -375,7 +370,6 @@ header {
 .subscribe-text p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -388,12 +382,6 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    /* position: absolute; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 
 input {
@@ -444,50 +432,132 @@ input {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    
+
 }
 
-.footer-content-one{
+.footer-content-one {
     padding-top: 100px;
     padding-left: 140px;
 }
 
-.footer-content-two{
+.footer-content-two {
     padding-top: 100px;
     padding-right: 140px;
 }
 
-.main-footer-img{
+.main-footer-img {
     display: flex;
 }
 
-.footer-img{
+.footer-img {
     margin-left: auto;
     margin-right: auto;
 }
 
-.footer-img-space{
+.footer-img-space {
     padding-right: 20px;
     padding-top: 50px;
 }
 
-/* .footer-content-three{
-    padding-top: 100px;
-    padding-left: 140px;
-}
-.footer-content-four{
-    padding-left: 100%;
-} */
-.bottom-footer-div{
+.bottom-footer-div {
     display: flex;
     justify-content: space-between;
 }
-.footer-content-three{
+
+.footer-content-three {
     padding-left: 140px;
     padding-top: 100px;
 }
 
-.footer-content-four{
+.footer-content-four {
     padding-right: 140px;
     padding-top: 100px;
+}
+
+.bonus-container-div {
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    max-width: 1320px;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.bonus-paragraph-1 {
+    padding-top: 80px;
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bonus-paragraph-2 {
+    padding-top: 20px;
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.bonus-paragraph-3 {
+    text-align: justify;
+    padding-top: 30px;
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.bonus-paragraph-4 {
+    padding-top: 80px;
+    color: #F00;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bonus-paragraph-5 {
+    text-align: justify;
+    padding-top: 30px;
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.bonus-img {
+    padding-top: 30px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.circle-1{
+height: 450px;
+width: 450px;
+border: 20px solid #F00;
+border-radius: 5000px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ 
+.circle-2{
+   height: 365px; 
+   width: 365px;
+
 }
