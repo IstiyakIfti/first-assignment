@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-   
+
 }
 
 header {
@@ -74,17 +74,19 @@ header {
 .s-img {
     display: block;
     width: 50%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
+    max-width: 800px;
 }
 
 .second-s {
-    background-image: url('../images/Vector.png');
+    background-image: url('../images/Vectorrr.png');
     max-width: 1320px;
     width: 83%;
     height: 600px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
+
 }
 
 .t-i-s {
@@ -94,6 +96,7 @@ header {
 
 .im {
     padding-top: 65px;
+    padding-right: 40px;
 }
 
 
@@ -116,6 +119,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 50px;
 }
 
 .s-b {
@@ -129,6 +133,7 @@ header {
     border: none;
     margin-left: 160px;
     padding: 10px 20px;
+    margin-top: 40px;
 }
 
 .third-s {
@@ -139,14 +144,15 @@ header {
     max-width: 1320px;
     width: 83%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 15px;
 
 }
 
 .t-t {
     color: #070211;
-    font-family: Inter;    font-size: 32px;
+    font-family: Inter;
+    font-size: 32px;
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
@@ -182,7 +188,7 @@ header {
 .s-f-s {
     max-width: 1320px;
     width: 83%;
-    height: 2000px;
+    height: 1000px;
     flex-shrink: 0;
     margin: 0 auto;
     margin-top: 50px;
@@ -194,6 +200,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding-top: 50px;
 }
 
 .p-s-d {
@@ -202,6 +209,7 @@ header {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    padding-top: 25px;
 }
 
 .s-c-d {
@@ -222,6 +230,7 @@ header {
     width: 896px;
     padding-left: 200px;
     padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 .m-d-s {
@@ -238,7 +247,8 @@ header {
 
 .i-f-b {
     background-image: url('../images/Rectangle1.png');
-    width: 429px;
+    /* width: 429px; */
+    max-width: 429px;
     height: 433px;
     display: block;
     background-position: right;
@@ -248,9 +258,236 @@ header {
 .i-f-b-t {
     background-image: url('../images/Rectangle\ 2.png');
     width: 1320px;
-height: 229px;
-flex-shrink: 0;
-display: block;
-background-repeat: no-repeat;
+    max-width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    display: block;
+    background-repeat: no-repeat;
+
+}
+
+/* cart section */
+.container-cart {
+    max-width: 1320px;
+    width: 83%;
+    /* height: 600px; */
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.cart-one-img {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    margin-right: 25px;
+    margin-top: 40px;
+
+}
+
+.cart-two-img {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+.cart-text-one {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.cart-text-two {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.cart-text-three {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 30px;
+}
+
+.first-cart {
+    display: flex;
+    max-width: 1320px;
+       
+}
+
+
+.second-cart {
+    display: flex;
+    max-width: 1320px;
+}
+
+/* subscribe-section */
+
+.subscribe-section {
+    max-width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.subscribe-img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+}
+
+.subscribe-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+
+.subscribe-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 30px;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    /* position: absolute; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+input {
+    border: none;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 20px 60px;
+}
+
+
+.input-box {
+    border-radius: 500px 0 0 500px;
+    left: 10px;
+}
+
+.input-subscribe {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+}
+
+.footer-style {
+    max-width: 1600px;
+    background: #070211;
+    width: 83%;
+    height: 610px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.horizontal-row {
+    max-width: 1320px;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.main-footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-footer-div {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
     
+}
+
+.footer-content-one{
+    padding-top: 100px;
+    padding-left: 140px;
+}
+
+.footer-content-two{
+    padding-top: 100px;
+    padding-right: 140px;
+}
+
+.main-footer-img{
+    display: flex;
+}
+
+.footer-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-img-space{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+/* .footer-content-three{
+    padding-top: 100px;
+    padding-left: 140px;
+}
+.footer-content-four{
+    padding-left: 100%;
+} */
+.bottom-footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-three{
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.footer-content-four{
+    padding-right: 140px;
+    padding-top: 100px;
 }
