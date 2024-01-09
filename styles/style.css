@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 * {
-    margin: 0;
+     margin: 0;
     padding: 0;
     font-family: 'Merriweather', serif;
-
 }
 
+/* header-section */
 header {
     background-image: url('../images/Banner\ Image.png');
 }
-
 .header-s {
     max-width: 1320px;
     width: 83%;
@@ -18,15 +17,15 @@ header {
     margin: 0 auto;
     margin-top: 50px;
 }
-
 .f-text h6 {
+    padding-left: 540px;
     padding-top: 177px;
     color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+    display: flex;
 }
-
 .f-text p {
     width: 632px;
     color: #FFF;
@@ -38,15 +37,15 @@ header {
     padding-left: 344px;
 }
 
+
+
+/* first-section */
 .first-s {
     width: 1600px;
     width: 83%;
     margin: 0 auto;
-    margin-top: 50px;
-
-
+    margin-top: 100px;
 }
-
 .text h5 {
     color: #F00;
     text-align: center;
@@ -54,7 +53,6 @@ header {
     font-weight: 700;
     line-height: normal;
 }
-
 .text h4 {
     margin-top: 30px;
     color: #F00;
@@ -62,7 +60,6 @@ header {
     font-size: 24px;
     font-weight: 500;
 }
-
 .text p {
     margin-top: 15px;
     color: #070211;
@@ -70,8 +67,8 @@ header {
     font-size: 48px;
     font-weight: 700;
 }
-
 .s-img {
+    padding-top: 50px;
     display: block;
     width: 50%;
     margin-left: auto;
@@ -79,6 +76,8 @@ header {
     max-width: 800px;
 }
 
+
+/* second-section */
 .second-s {
     background-image: url('../images/Vectorrr.png');
     max-width: 1320px;
@@ -86,21 +85,15 @@ header {
     height: 600px;
     margin: 0 auto;
     margin-top: 100px;
-
 }
-
 .t-i-s {
     display: flex;
     justify-content: space-between;
 }
-
 .im {
     padding-top: 65px;
     padding-right: 40px;
 }
-
-
-
 .s-heading-t {
     padding-top: 140px;
     padding-left: 160px;
@@ -111,7 +104,6 @@ header {
     line-height: 88px;
     letter-spacing: 7.04px;
 }
-
 .s-p-t {
     padding-left: 160px;
     width: 697px;
@@ -121,7 +113,6 @@ header {
     line-height: 30px;
     margin-top: 50px;
 }
-
 .s-b {
     color: #FFF;
     text-align: center;
@@ -136,6 +127,8 @@ header {
     margin-top: 40px;
 }
 
+
+/* Third-section */
 .third-s {
     width: 1320px;
     height: 482px;
@@ -184,15 +177,16 @@ header {
     padding-bottom: 30px;
 }
 
-.s-f-s {
+
+/* Fourth-section */
+.fourth-s {
     max-width: 1320px;
     width: 83%;
     height: 1000px;
     flex-shrink: 0;
     margin: 0 auto;
     margin-top: 100px;
-}
-
+ } 
 .p-o-d {
     color: #070211;
     font-size: 24px;
@@ -201,7 +195,6 @@ header {
     line-height: normal;
     padding-top: 50px;
 }
-
 .p-s-d {
     color: #070211;
     font-size: 72px;
@@ -210,7 +203,6 @@ header {
     line-height: normal;
     padding-top: 25px;
 }
-
 .s-c-d {
     color: #F00;
     text-align: center;
@@ -219,7 +211,6 @@ header {
     font-weight: 900;
     line-height: normal;
 }
-
 .p-t-d {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -231,48 +222,42 @@ header {
     padding-bottom: 40px;
     padding-top: 30px;
 }
-
 .m-d-s {
     text-align: center;
 }
-
-.i-f-o {
-    margin-left: auto;
-    width: 797px;
-    height: 663px;
-    padding-right: 200px;
-
+.discount-img{
+    position: relative;
+    padding-top: 100px;
+}
+.first-img{
+    position: absolute;
+    z-index: 1;
+}
+.second-img{
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 50px;
+    z-index: 2;
+}
+.third-img{
+    position: absolute;
+    padding-left: 891px;
+    margin-bottom: 10px;
+}
+.fourth-img{
+    padding-top: 400px;
+    position: absolute;
 }
 
-.i-f-b {
-    background-image: url('../images/Rectangle1.png');
-    max-width: 429px;
-    height: 433px;
-    display: block;
-    background-position: right;
-    background-repeat: no-repeat;
-}
 
-.i-f-b-t {
-    background-image: url('../images/Rectangle\ 2.png');
-    width: 1320px;
-    max-width: 1320px;
-    height: 229px;
-    flex-shrink: 0;
-    display: block;
-    background-repeat: no-repeat;
-
-}
 
 /* cart section */
-.container-cart {
+.fifth-s {
     max-width: 1320px;
     width: 83%;
     margin: 0 auto;
-    margin-top: 50px;
-
+    margin-top: 150px;
 }
-
 .cart-one-img {
     width: 424px;
     height: 450px;
@@ -281,9 +266,7 @@ header {
     background: lightgray 0px -35.755px / 100% 142.115% no-repeat;
     margin-right: 25px;
     margin-top: 40px;
-
 }
-
 .cart-two-img {
     width: 424px;
     height: 450px;
@@ -293,8 +276,6 @@ header {
     margin-right: 25px;
     margin-top: 25px;
 }
-
-
 .cart-text-one {
     color: #F00;
     font-size: 24px;
@@ -303,8 +284,9 @@ header {
     line-height: normal;
     padding-right: 10px;
     padding-top: 30px;
+    display: block;
+    border-radius: 16px;
 }
-
 .cart-text-two {
     color: #070211;
     font-size: 48px;
@@ -312,8 +294,8 @@ header {
     line-height: normal;
     padding-top: 25px;
 }
-
 .cart-text-three {
+    text-align: justify;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-style: normal;
@@ -321,21 +303,18 @@ header {
     line-height: 32px;
     padding-top: 30px;
 }
-
 .first-cart {
     display: flex;
     max-width: 1320px;
-
 }
-
-
 .second-cart {
     display: flex;
     max-width: 1320px;
 }
 
-/* subscribe-section */
 
+
+/* subscribe-section */
 .subscribe-section {
     max-width: 1320px;
     height: 616px;
@@ -346,7 +325,6 @@ header {
     margin: 0 auto;
     margin-top: 100px;
 }
-
 .subscribe-img {
     width: 150px;
     height: 150px;
@@ -356,7 +334,6 @@ header {
     margin-right: auto;
     padding-top: 120px;
 }
-
 .subscribe-text h3 {
     color: #070211;
     text-align: center;
@@ -366,7 +343,6 @@ header {
     text-transform: capitalize;
     padding-top: 50px;
 }
-
 .subscribe-text p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -376,14 +352,12 @@ header {
     line-height: 32px;
     padding-top: 30px;
 }
-
 .subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
 }
-
 input {
     border: none;
     position: relative;
@@ -392,19 +366,19 @@ input {
     box-sizing: border-box;
     padding: 20px 60px;
 }
-
-
 .input-box {
     border-radius: 500px 0 0 500px;
     left: 10px;
 }
-
 .input-subscribe {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: #FFF;
 }
 
+
+
+/* Footer-section */
 .footer-style {
     max-width: 1600px;
     background: #070211;
@@ -413,67 +387,58 @@ input {
     margin: 0 auto;
     margin-top: 100px;
 }
-
 .horizontal-row {
     max-width: 1320px;
     width: 83%;
     margin: 0 auto;
     margin-top: 50px;
 }
-
 .main-footer-div {
     display: flex;
     justify-content: space-between;
 }
-
 .content-footer-div {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-
 }
-
 .footer-content-one {
     padding-top: 100px;
     padding-left: 140px;
 }
-
 .footer-content-two {
     padding-top: 100px;
     padding-right: 140px;
 }
-
 .main-footer-img {
     display: flex;
 }
-
 .footer-img {
     margin-left: auto;
     margin-right: auto;
 }
-
 .footer-img-space {
     padding-right: 20px;
     padding-top: 50px;
 }
-
 .bottom-footer-div {
     display: flex;
     justify-content: space-between;
 }
-
 .footer-content-three {
     padding-left: 140px;
     padding-top: 100px;
 }
-
 .footer-content-four {
     padding-right: 140px;
     padding-top: 100px;
 }
 
+
+
+/* Bonus-section */
 .bonus-container-div {
     display: flex;
     width: 1320px;
@@ -505,8 +470,6 @@ input {
     line-height: normal;
     text-transform: capitalize;
 }
-
-
 .bonus-paragraph-3 {
     text-align: justify;
     padding-top: 30px;
@@ -517,7 +480,6 @@ input {
     font-weight: 400;
     line-height: 32px;
 }
-
 .bonus-paragraph-4 {
     padding-top: 80px;
     color: #F00;
@@ -526,7 +488,6 @@ input {
     font-weight: 700;
     line-height: normal;
 }
-
 .bonus-paragraph-5 {
     text-align: justify;
     padding-top: 30px;
@@ -537,7 +498,6 @@ input {
     font-weight: 400;
     line-height: 32px;
 }
-
 .bonus-img {
     padding-top: 30px;
     width: 140px;
@@ -545,7 +505,6 @@ input {
     flex-shrink: 0;
     justify-content: center;
 }
-
 .circle-1{
 height: 450px;
 width: 450px;
@@ -554,10 +513,8 @@ border-radius: 5000px;
 display: flex;
 justify-content: center;
 align-items: center;
-}
- 
+} 
 .circle-2{
    height: 365px; 
    width: 365px;
-
 }
